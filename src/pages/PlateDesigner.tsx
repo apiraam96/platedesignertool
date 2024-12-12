@@ -6,7 +6,6 @@ const PlateDesigner = () => {
   return (
     <>
       <NavBar />
-      <p className="text-9xl">PlateDesigner</p>
       <Plate />
     </>
   );

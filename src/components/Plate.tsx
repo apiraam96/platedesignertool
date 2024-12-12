@@ -15,7 +15,7 @@ const Plate = () => {
   console.log(wellIds.length);
 
   return (
-    <div className="grid grid-cols-12 border-red-500 border">
+    <div className="grid grid-cols-12 border-black border p-10">
       {wellIds.map((id) => (
         <Well id={id} />
       ))}
