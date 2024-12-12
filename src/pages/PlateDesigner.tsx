@@ -7,7 +7,7 @@ const PlateDesigner = () => {
   return (
     <>
       <NavBar />
-      <div className="grid grid-cols-2 pr-5 pb-5">
+      <div className="grid grid-cols-4">
         <SideBar />
         <Plate />
       </div>

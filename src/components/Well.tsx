@@ -4,7 +4,7 @@ const Well = ({ id }: { id: string }) => {
   return (
     <div
       id={id}
-      className="border-slate-800 border p-5 hover:bg-sky-100 hover:cursor-pointer"
+      className="border-slate-800 border p-8 hover:bg-sky-100 hover:cursor-pointer"
     ></div>
   );
 };

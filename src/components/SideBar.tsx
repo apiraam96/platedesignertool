@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const SideBar = () => {
   return (
-    <aside className="left-0 z-10 h-lvh w-[500px] bg-slate-100 border-black border-r-4 shadow-sm">
+    <aside className="left-0 z-10 h-lvh w-full bg-slate-100 border-black border-r-4 shadow-sm">
       <div className="flex flex-col">
         <div className="p-4 pb-2 flex justify-between items-center">
           <label id="name">Name</label>

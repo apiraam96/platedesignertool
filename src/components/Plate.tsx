@@ -15,10 +15,12 @@ const Plate = () => {
   console.log(wellIds.length);
 
   return (
-    <div className="grid grid-cols-12 border-black border p-10">
-      {wellIds.map((id) => (
-        <Well id={id} />
-      ))}
+    <div className="m-auto col-span-3 p-5">
+      <div className="grid grid-cols-12 border-black border p-10">
+        {wellIds.map((id) => (
+          <Well id={id} />
+        ))}
+      </div>
     </div>
   );
 };
