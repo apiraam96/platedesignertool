@@ -25,7 +25,7 @@ const Plate = () => {
         {rows.map((row, i) => (
           <p className={`my-auto pr-5 col-start-1 row-start-${i + 1}`}>{row}</p>
         ))}
-        <div className="grid grid-cols-12 col-span-12 row-span-8 col-start-2 row-start-2">
+        <div className="grid grid-cols-12 col-span-12 row-span-8 col-start-2 row-start-2 border border-black">
           {wellIds.map((id) => (
             <Well key={id} id={id} />
           ))}
