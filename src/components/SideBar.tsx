@@ -24,7 +24,7 @@ const SideBar = () => {
         <div className="p-4">
           <Label>Well Type</Label>
           <Select>
-            <SelectTrigger className="w-[280px]">
+            <SelectTrigger className="">
               <SelectValue placeholder="Choose condition type" />
             </SelectTrigger>
             <SelectContent>
@@ -39,7 +39,7 @@ const SideBar = () => {
         <div className="p-4">
           <Label>Cell Line</Label>
           <Select>
-            <SelectTrigger className="w-[280px]">
+            <SelectTrigger className="">
               <SelectValue placeholder="Choose cell line" />
             </SelectTrigger>
             <SelectContent>

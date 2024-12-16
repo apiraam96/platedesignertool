@@ -1,13 +1,22 @@
 import React from "react";
 
 const Well = ({ key, id }: { key: string; id: string }) => {
+  //if there are no values, then p-9
   return (
-    <div
+    <button
       onClick={() => console.log("well:", id)}
       id={id}
       key={key}
-      className="border-slate-800 border p-7 hover:bg-sky-100 hover:cursor-pointer"
-    ></div>
+      className="border-slate-800 border p-9 hover:bg-sky-50 hover:cursor-pointer focus:bg-sky-200"
+    >
+      <p id="name" className="text-sm">
+        {""}
+      </p>
+      <p id="wellType" className="text-xs">
+        {""}
+      </p>
+      <p id="cellLine">{""}</p>
+    </button>
   );
 };
 
