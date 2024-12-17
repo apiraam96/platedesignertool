@@ -15,3 +15,11 @@ export const cellLine : string[] = [
     'iPSC',
     'CHO'
 ]
+
+export const doseConcUnit : string[] = [
+    'M', 
+    'mM', 
+    'uM',
+    'nM',
+    'pM', 
+]
