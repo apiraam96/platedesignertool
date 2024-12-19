@@ -7,7 +7,7 @@ const Well = ({ key, id }: { key: string; id: string }) => {
       onClick={() => console.log("well:", id)}
       id={id}
       key={key}
-      className="border-slate-800 border p-9 hover:bg-sky-50 hover:cursor-pointer focus:bg-sky-200"
+      className="border-slate-800 border p-12 hover:bg-sky-50 hover:cursor-pointer focus:bg-sky-200"
     >
       <p id="name" className="text-sm">
         {""}

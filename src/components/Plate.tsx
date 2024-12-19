@@ -16,7 +16,7 @@ const Plate = () => {
 
   return (
     <div className="m-auto col-span-3 p-5">
-      <div className="grid grid-cols-13 grid-rows-9 border-black border px-10 pb-7 rounded-tl-3xl">
+      <div className="grid grid-cols-13 grid-rows-9 border-black border-4 px-10 pb-7">
         {cols.map((column, i) => (
           <p className={`mx-auto my-auto row-start-1 col-start-${i + 1}`}>
             {column}
