@@ -7,7 +7,7 @@ const Well = ({ key, id }: { key: string; id: string }) => {
       onClick={() => console.log("well:", id)}
       id={id}
       key={key}
-      className="border-slate-800 border p-12 hover:bg-sky-50 hover:cursor-pointer focus:bg-sky-200"
+      className="border-slate-800 border xl:p-9 2xl:p-12 hover:bg-sky-50 hover:cursor-pointer focus:bg-sky-200"
     >
       <p id="name" className="text-sm">
         {""}
@@ -15,7 +15,12 @@ const Well = ({ key, id }: { key: string; id: string }) => {
       <p id="wellType" className="text-xs">
         {""}
       </p>
-      <p id="cellLine">{""}</p>
+      <p id="cellType" className="text-xs">
+        {""}
+      </p>
+      <p id="numberOfCells" className="text-xs">
+        {""}
+      </p>
     </button>
   );
 };
